@@ -44,10 +44,10 @@
   font-weight: 400;
   font-style: normal;
   color: #496a89;
-  border-bottom: 1px solid #496a89;
+  border: 1px solid #496a89;
   text-decoration: none;
   transition: color 0.3s ease;
-  padding: 20px;
+  padding: 15px;
 }
 
 .se_projekter_knap_1 a:hover {
