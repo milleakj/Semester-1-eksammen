@@ -1,0 +1,168 @@
+body {
+  background-color: #fcfcfb;
+}
+
+/* HEADER*/
+
+.header {
+  padding: 20px 40px;
+}
+
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo_header img {
+  height: 50px;
+}
+
+/* BURGER MENU   */
+
+/* Hide desktop nav on mobile */
+.main_nav {
+  display: none;
+}
+
+/* Burger button */
+.burger {
+  display: block;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #496a89;
+}
+
+.nav-links {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 100%;
+  background-color: var(--blue-dark);
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  transform: translateY(-15px);
+  opacity: 0;
+  pointer-events: none;
+
+  transition: transform 0.25s ease, opacity 0.25s ease;
+  z-index: 999;
+}
+
+.nav-links.active {
+  transform: translateY(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.nav-links a {
+  padding: 16px;
+  margin: 0;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.nav-links p {
+  margin: 0;
+}
+
+/* footer */
+
+.footer {
+  background-color: #d7e1eb;
+  padding: 30px 20px;
+
+  display: flex; /* enable flexbox */
+  flex-direction: column; /* stack items vertically */
+  justify-content: center; /* center vertically */
+  align-items: center; /* center horizontally */
+
+  text-align: center; /* center text inside each element */
+  gap: 20px;
+  font-family: sans-serif;
+}
+
+/* Logo */
+.footer_logo img {
+  width: 100%;
+  max-width: 120px; /* optional: keeps it tidy */
+}
+
+/* Contact info */
+.footer_info {
+  font-size: 16px;
+  color: #2b4862;
+  line-height: 1.6;
+}
+
+/* Button */
+.se_projekter_footer_knap a {
+  font-size: 20px;
+  font-family: "Liu Jian Mao Cao", cursive;
+  color: #496a89;
+  background-color: #fcfcfb;
+  border: 1px solid #496a89;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+/* ---------------------- */
+/* DESKTOP      */
+/* ---------------------- */
+
+@media (min-width: 768px) {
+  .main_nav {
+    display: block;
+  }
+
+  .main_nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .main_nav a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #496a89;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+
+  .main_nav a:hover {
+    color: #2b4862;
+  }
+
+  /* Hide burger + mobile menu on desktop */
+  .burger,
+  .nav-links {
+    display: none;
+  }
+
+  .footer {
+    flex-direction: row; /* row instead of column */
+    justify-content: space-between;
+    align-items: center;
+    text-align: left; /* so contact text aligns nicely */
+  }
+  .footer_logo {
+    flex: 0 0 auto; /* logo stays on the left */
+  }
+  .footer_info {
+    flex: 1; /* takes center space */
+    text-align: center;
+  }
+  .se_projekter_footer_knap {
+    flex: 0 0 auto; /* button on the right */
+  }
+}

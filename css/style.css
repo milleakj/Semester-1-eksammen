@@ -1,0 +1,22 @@
+/* font */
+
+h1,
+h2 {
+  font-family: "IM Fell Double Pica", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3,
+p {
+  font-family: "Libre Caslon Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* font for btn */
+/* .liu-jian-mao-cao-regular {
+  font-family: "Liu Jian Mao Cao", cursive;
+  font-weight: 400;
+  font-style: normal;
+} */

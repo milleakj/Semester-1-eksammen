@@ -1,0 +1,58 @@
+.projekter_title img {
+  width: 75%;
+  margin: 60px;
+}
+.tema_liste {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fcfcfb;
+  padding: 40px 20px;
+  font-family: sans-serif;
+}
+.tema_liste h1 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #2b4862;
+  margin: 20px 0 10px;
+  text-align: center;
+}
+.tema_liste h1 a {
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s ease;
+}
+.tema_liste h1 a:hover {
+  text-decoration: none;
+  color: #264b7c;
+}
+
+.tema_liste .strej_1,
+.tema_liste .strej_2,
+.tema_liste .strej_3 {
+  margin-bottom: 20px;
+}
+.tema_liste img {
+  width: 100%;
+}
+.projekter_img {
+  margin-top: 40px;
+  text-align: center;
+}
+.projekter_img img {
+  width: 30%;
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+  .projekter_title img {
+    width: 50%;
+    margin-left: 370px;
+  }
+
+  .tema_liste h1 {
+    font-size: 38px;
+  }
+}
