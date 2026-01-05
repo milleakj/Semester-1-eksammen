@@ -1,4 +1,4 @@
-/* ---------------------- */ /* BURGER MENU (MOBILE) */ /* ---------------------- */ /* Default: keep desktop nav visible, hide burger on large screens via media query */
+/* ---------------------- */ /* BURGER MENU (MOBILE) */ /* ---------------------- */
 .burger {
   font-size: 2rem;
   background: none;
@@ -9,7 +9,7 @@
 }
 .burger:active {
   transform: scale(0.9);
-} /* Mobile nav container */
+}
 .mobile_nav {
   position: absolute;
   top: 80px;
@@ -17,9 +17,9 @@
   width: 100%;
   background-color: #496a89;
   text-align: center;
-  display: flex; /* always flex so transitions work */
+  display: flex;
   flex-direction: column;
-  padding: 0; /* animation states */
+  padding: 0;
   max-height: 0;
   opacity: 0;
   overflow: hidden;
@@ -35,13 +35,13 @@
   display: block;
   font-size: 18px;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
-} /* Open state */
+}
 .mobile_nav.active {
-  max-height: 400px; /* big enough to hold all links */
+  max-height: 400px;
   opacity: 1;
   pointer-events: auto;
   transform: translateY(0);
-} /* ---------------------- */ /* RESPONSIVE BEHAVIOR */ /* ---------------------- */ /* Mobile: show burger, hide desktop nav */
+}
 @media (max-width: 768px) {
   .burger {
     display: block;
@@ -49,7 +49,7 @@
   .main_nav {
     display: none;
   }
-} /* Desktop: show desktop nav, hide burger + mobile menu */
+}
 @media (min-width: 769px) {
   .burger {
     display: none;
