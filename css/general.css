@@ -114,6 +114,44 @@ body {
   padding: 10px 20px;
 }
 
+hr {
+  color: #324c65;
+  border: none;
+  height: 2px;
+  background-color: #496a89;
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 4px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.tema_btn_container {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 80px;
+}
+
+.btn_t2,
+.btn_t3,
+.btn_t4,
+.btn_t5 {
+  font-size: 24px;
+  font-family: "Liu Jian Mao Cao", cursive;
+  color: #d4b890;
+  border: 1px solid #b89d76;
+  text-decoration: none;
+  padding: 10px 20px;
+  transition: color 0.3s ease;
+}
+
+.btn_t2:hover,
+.btn_t3:hover,
+.btn_t4:hover,
+.btn_t5:hover {
+  color: #2b4862;
+}
+
 /* ---------------------- */
 /* DESKTOP      */
 /* ---------------------- */
@@ -164,5 +202,15 @@ body {
   }
   .se_projekter_footer_knap {
     flex: 0 0 auto; /* button on the right */
+  }
+  .tema_btn_container {
+    margin-top: 90px;
+    margin-bottom: 100px;
+  }
+  .btn_t2,
+  .btn_t3,
+  .btn_t4,
+  .btn_t5 {
+    font-size: 38px;
   }
 }
