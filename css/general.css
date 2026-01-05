@@ -24,12 +24,12 @@ body {
   background-color: #d7e1eb;
   padding: 30px 20px;
 
-  display: flex; /* enable flexbox */
-  flex-direction: column; /* stack items vertically */
-  justify-content: center; /* center vertically */
-  align-items: center; /* center horizontally */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-  text-align: center; /* center text inside each element */
+  text-align: center;
   gap: 20px;
   font-family: sans-serif;
 }
@@ -37,7 +37,7 @@ body {
 /* Logo */
 .footer_logo img {
   width: 100%;
-  max-width: 120px; /* optional: keeps it tidy */
+  max-width: 120px;
 }
 
 /* Contact info */
@@ -126,20 +126,20 @@ hr {
   }
 
   .footer {
-    flex-direction: row; /* row instead of column */
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    text-align: left; /* so contact text aligns nicely */
+    text-align: left;
   }
   .footer_logo {
-    flex: 0 0 auto; /* logo stays on the left */
+    flex: 0 0 auto;
   }
   .footer_info {
-    flex: 1; /* takes center space */
+    flex: 1;
     text-align: center;
   }
   .se_projekter_footer_knap {
-    flex: 0 0 auto; /* button on the right */
+    flex: 0 0 auto;
   }
   .tema_btn_container {
     margin-top: 90px;
