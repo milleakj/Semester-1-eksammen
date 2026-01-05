@@ -1,0 +1,75 @@
+.ommig_title img {
+  width: 60%;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.ommig_tekst {
+  place-content: center;
+}
+.ommig_tekst p {
+  text-align: center;
+  margin: 30px;
+  font-size: 20px;
+}
+.ommig_selvportrat {
+  place-content: center;
+}
+.ommig_selvportrat img {
+  width: 60%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  margin-left: 110px;
+  margin-bottom: 30px;
+}
+
+.reflection {
+  background-color: #f5efe7;
+  padding: 40px;
+}
+.reflection_text_container {
+  background-color: #fcfcfb;
+  padding: 30px;
+}
+
+.reflection h2,
+p {
+  text-align: center;
+}
+.reflection h2 {
+  font-size: 28px;
+}
+.reflection p {
+  font-size: 18px;
+}
+
+.kontakt_mig_title h2 {
+  text-align: center;
+  font-size: 38px;
+}
+
+.kontakt_oplysninger {
+  text-align: center;
+  margin-right: 40px;
+}
+.kontakt_oplysninger ul {
+  font-size: 20px;
+}
+
+.kontakt_oplysninger a {
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.kontakt_oplysninger a:hover {
+  text-decoration: none;
+  color: #264b7c;
+}
+
+.kontakt_mig_img img {
+  width: 35%;
+  margin-left: 150px;
+  margin-bottom: 30px;
+}
