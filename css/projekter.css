@@ -24,7 +24,7 @@
 }
 .tema_liste h1 a:hover {
   text-decoration: none;
-  color: #264b7c;
+  color: #2b5388;
 }
 
 .tema_liste .strej_1,
@@ -56,9 +56,9 @@
     font-size: 38px;
   }
   .projekter_img img {
-  width: 30%;
-  max-width: 300px;
-  height: auto;
-  margin-bottom: 60px;
-}
+    width: 30%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 60px;
+  }
 }
