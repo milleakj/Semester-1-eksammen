@@ -6,6 +6,7 @@
 
 .ommig_tekst {
   place-content: center;
+  margin: 20px 60px;
 }
 .ommig_tekst p {
   text-align: center;
@@ -26,11 +27,11 @@
 
 .reflection {
   background-color: #f5efe7;
-  padding: 40px;
 }
 .reflection_text_container {
   background-color: #fcfcfb;
-  padding: 30px;
+  padding: 50px;
+  margin: 40px 120px;
 }
 
 .reflection h2,
@@ -47,11 +48,12 @@ p {
 .kontakt_mig_title h2 {
   text-align: center;
   font-size: 38px;
+  margin-right: 200px;
 }
 
 .kontakt_oplysninger {
   text-align: center;
-  margin-right: 40px;
+  margin-right: 240px;
 }
 .kontakt_oplysninger ul {
   font-size: 20px;

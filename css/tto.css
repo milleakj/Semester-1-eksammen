@@ -1,0 +1,211 @@
+.t2_title img {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.t2_projekt_knap1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin-left: 150px;
+  margin-bottom: 100px;
+}
+
+.t2_projekt_knap1 a {
+  font-size: 18px;
+  font-family: "Liu Jian Mao Cao", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #496a89;
+  border: 1px solid #496a89;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  padding: 15px;
+}
+
+.t2_projekt_knap1 a:hover {
+  color: #183458;
+}
+
+.om_temaet_2 {
+  background-color: #f5efe7;
+  padding: 30px;
+  margin-bottom: 70px;
+}
+
+.om_temaet_2 h2 {
+  text-align: center;
+  font-size: 38px;
+}
+
+.om_temaet_2 p {
+  text-align: center;
+  line-height: 2;
+  font-size: 18px;
+}
+
+.process_t2 h2 {
+  color: #324c65;
+  text-align: center;
+  font-size: 38px;
+}
+
+.proces_t2_1_tekst,
+.proces_t2_2_tekst,
+.proces_t2_3_tekst p {
+  text-align: center;
+  margin: 10px 30px;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.t2_img1 img,
+.t2_img2 img,
+.t2_img3 img {
+  width: 90%;
+  margin: 10px 20px;
+}
+
+hr {
+  color: #324c65;
+  border: none; /* removes default browser style */
+  height: 2px; /* thickness */
+  background-color: #496a89; /* your custom color */
+  width: 80%;
+  margin: 20px auto; /* centers it */
+  border-radius: 4px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.t2_squiggle {
+  position: relative;
+  display: inline-block;
+}
+.t2_squiggle img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.t2_projekt_knap2 {
+  position: absolute;
+  bottom: 80px; /* move up/down */
+  left: 50%; /* center horizontally */
+  transform: translateX(-50%);
+}
+
+.t2_projekt_knap2 a {
+  font-size: 22px; /* bigger text */
+  text-align: center;
+  display: inline-block;
+  font-family: "Liu Jian Mao Cao", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #496a89;
+  border: 1px solid #496a89;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  padding: 10px;
+}
+
+.t2_projekt_knap2 a:hover {
+  color: #183458;
+}
+
+@media (min-width: 768px) {
+  .t2_title img {
+    width: 70%;
+    margin-top: 50px;
+    margin-left: 15%;
+  }
+
+  .t2_projekt_knap1 {
+    margin-left: 35%;
+  }
+
+  .t2_projekt_knap1 a {
+    font-size: 22px;
+  }
+
+  .om_temaet_2 {
+    background-color: #f5efe7;
+    padding: 50px 70px;
+    margin: 70px 150px;
+  }
+
+  .process_t2 h2 {
+    font-size: 48px;
+  }
+
+  .proces_t2_1 {
+    display: flex;
+    margin: 10px 60px;
+  }
+
+  .proces_t2_1_tekst p {
+    font-size: 22px;
+    padding-top: 20px;
+  }
+
+  .proces_t2_2 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 10px 60px;
+  }
+
+  .t2_img2 img {
+    margin-top: 60px;
+    width: 120%;
+  }
+
+  .proces_t2_2_tekst p {
+    font-size: 22px;
+    padding-left: 130px;
+  }
+
+  .proces_t2_3 {
+    display: flex;
+    margin: 10px 80px;
+    gap: 40px;
+  }
+  .proces_t2_3_tekst {
+    max-width: 50%;
+  }
+  .proces_t2_3_tekst p {
+    font-size: 22px;
+    line-height: 2;
+  }
+  .t2_img3 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 70px;
+    margin-right: 100px;
+  }
+
+  .t2_squiggle {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+  }
+  .t2_squiggle img {
+    width: 60%;
+    height: auto;
+    display: block;
+  }
+  .t2_projekt_knap2 {
+    position: absolute;
+    bottom: 170px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  } /* Button styling */
+  .t2_projekt_knap2 a {
+    font-size: 36px;
+    padding: 14px 26px;
+    white-space: nowrap;
+  }
+}
