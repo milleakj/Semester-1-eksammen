@@ -1,5 +1,3 @@
-/* hero section */
-
 .hero_img {
   width: 100%;
 }
@@ -7,8 +5,8 @@
 .hero_img img {
   width: 95%;
   height: auto;
-  display: block; /* removes tiny gaps under images */
-  object-fit: cover; /* keeps it looking good on all screens */
+  display: block;
+  object-fit: cover;
   margin: 10px;
 }
 
@@ -45,14 +43,14 @@
 .btn_img img {
   width: 100%;
   height: auto;
-  display: block; /* removes tiny gaps under images */
+  display: block;
   object-fit: cover;
 }
 
 .se_projekter_knap_2 {
   position: absolute;
-  bottom: 50px; /* move up/down */
-  left: 50%; /* center horizontally */
+  bottom: 50px;
+  left: 50%;
   transform: translateX(-50%);
   z-index: 10;
 }
@@ -80,7 +78,7 @@
 /* velkommen */
 
 .velkommen_baggrund {
-  background-color: #f3e9dd; /* your wood‑tone solid color */
+  background-color: #f3e9dd;
   padding: 40px;
 }
 
@@ -140,7 +138,7 @@
     grid-template-columns: 1fr 1fr;
     align-items: center;
     max-width: 1250px;
-    margin: 60px auto; /* keep it centered */
+    margin: 60px auto;
   }
   .velkommen_title {
     grid-column: 1 / 3;
@@ -181,11 +179,12 @@
   }
   .se_projekter_knap_2 {
     position: absolute;
-    bottom: 110px; /* same vertical offset as mobile */
+    bottom: 110px;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
-  } /* Just make the button bigger on desktop */
+  }
+
   .se_projekter_knap_2 a {
     font-size: 36px;
     padding: 14px 26px;
