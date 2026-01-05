@@ -73,3 +73,32 @@ p {
   margin-left: 150px;
   margin-bottom: 30px;
 }
+
+@media (min-width: 768px) {
+  .ommig_title img {
+    width: 40%;
+  }
+
+  .ommig_grid1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 40px 20px;
+    background-color: #fcfcfb;
+  } /* Text styling */
+  .ommig_tekst p {
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+  } /* Image styling */
+  .ommig_selvportrat img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    object-fit: cover;
+  }
+}
