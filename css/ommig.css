@@ -27,11 +27,12 @@
 
 .reflection {
   background-color: #f5efe7;
+  padding: 50px; /* replaces margin on the child */
 }
 .reflection_text_container {
   background-color: #fcfcfb;
-  padding: 50px;
-  margin: 40px 120px;
+  padding: 40px;
+  margin: 0; /* remove the margin that breaks the background */
 }
 
 .reflection h2,
@@ -43,20 +44,21 @@ p {
 }
 .reflection p {
   font-size: 18px;
+  line-height: 2;
 }
 
 .kontakt_mig_title h2 {
   text-align: center;
   font-size: 38px;
-  margin-right: 200px;
 }
 
 .kontakt_oplysninger {
   text-align: center;
-  margin-right: 240px;
+  margin-right: 50px;
 }
 .kontakt_oplysninger ul {
   font-size: 20px;
+  line-height: 2;
 }
 
 .kontakt_oplysninger a {
@@ -108,7 +110,7 @@ p {
   }
 
   .reflection {
-    padding: 60px;
+    padding: 100px 200px;
   }
 
   .reflection h2 {
@@ -149,6 +151,7 @@ p {
   .kontakt_mig_title h2 {
     font-size: 38px;
     color: #2b4862;
+    margin-right: 12px;
   }
   .kontakt_oplysninger {
     grid-column: 2;
