@@ -56,10 +56,11 @@ p {
 .kontakt_oplysninger {
   text-align: center;
   margin-right: 50px;
+  list-style: none;
+  line-height: 2;
 }
 .kontakt_oplysninger ul {
   font-size: 20px;
-  line-height: 2;
 }
 
 .kontakt_oplysninger a {
