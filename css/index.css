@@ -153,8 +153,9 @@
     grid-column: 1;
   }
   .velkommen_tekst p {
-    font-size: 25px;
+    font-size: 26px;
     text-align: center;
+    margin-left: 70px;
   }
   .velkommen_img {
     grid-column: 2;
